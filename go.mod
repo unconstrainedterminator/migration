@@ -3,7 +3,7 @@ module github.com/unconstrainedterminator/migration
 go 1.19
 
 require (
-	github.com/gogf/gf/v2 v2.5.6
+	github.com/gogf/gf/v2 v2.5.5
 	github.com/unconstrainedterminator/os v0.0.0-20231028073542-4a9eba3c8957
 )
 
