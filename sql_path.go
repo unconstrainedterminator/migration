@@ -6,7 +6,7 @@ import (
 )
 
 func NewPath(dirname string) string {
-	path := os.GetCurrentAbs()
+	path := os.GetCurrentPath()
 	dbDir := "db"
 	return filepath.Join(path, dbDir, dirname)
 }
